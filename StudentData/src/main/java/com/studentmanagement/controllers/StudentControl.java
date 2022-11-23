@@ -9,6 +9,7 @@ public class StudentControl {
 	
 	
 	System.out.println("hello");
+	System.out.println("hello again");
 	
 	@GetMapping("/showStudent")
 	public String showStudentList()
