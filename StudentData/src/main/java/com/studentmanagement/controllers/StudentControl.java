@@ -8,11 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentControl {
 	
 	
+	System.out.println("hello");
+	
 	@GetMapping("/showStudent")
 	public String showStudentList()
 	{
 		return "student-list.jsp";
 	}
+	
+	
 	
 
 }
