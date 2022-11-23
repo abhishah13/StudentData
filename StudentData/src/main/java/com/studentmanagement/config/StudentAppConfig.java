@@ -18,6 +18,7 @@ public class StudentAppConfig {
 		
 		viewResolve.setPrefix("/WEB-INF/view");
 	    viewResolve.setSuffix(".jsp");
+		System.out.println("hello");
 		
 		return viewResolve ;
 	}
