@@ -16,6 +16,7 @@ public class StudentAppInitializer extends AbstractAnnotationConfigDispatcherSer
 		
 		Class[] configFiles = {StudentAppConfig.class};
 		return configFiles;
+		System.out.println("helo");
 	}
 
 	@Override
